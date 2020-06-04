@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "On Boarding example",
+    "slug": "on-boarding",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "br.estacio.onboarding",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "br.estacio.onboarding",
+      "versionCode": 1
+    }
+  }
+}
